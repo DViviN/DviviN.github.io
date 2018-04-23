@@ -1,0 +1,47 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.header {
+    background-position: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header.header h1 {
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: rgba(138, 85, 26, 0.8)
+}
+
+.btn {
+    background-color: rgba(148, 181, 202, 0.8);
+    color: rgba(138, 85, 26, 1);
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    border-radius: 300px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.btn-xl {
+    padding: 0.3rem 1.5rem;
+}
+
+.btn-info {
+    background-color: rgba(148, 181, 202, 0.8);
+    border-color: rgba(148, 181, 202, 0.8);
+}
+
+.btn:hover {
+    color: rgb(80, 50, 16);
+    background-color: rgb(130, 171, 197);
+    border-color: rgb(130, 171, 197);
+    cursor: pointer;
+}
